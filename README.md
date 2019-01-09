@@ -16,7 +16,7 @@ run `truffle init` in the `iska-contract` folder. This will initialize truffle. 
 
 Once the smart contract is filled in we will add the development network to the `truffle-config.js`. The network we will be using is listed here below.
 
-```json
+```js
 development: {
     host: "localhost", // Localhost (default: none)
     port: 8545, // Standard Ethereum port (default: none)
